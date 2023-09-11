@@ -1,5 +1,4 @@
 name: Dispatch Workflow
-
 on:
   workflow_dispatch:
   push:
