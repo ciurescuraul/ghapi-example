@@ -2,9 +2,9 @@ name: Follow-up Workflow
 
 on:
   workflow_dispatch:
-#    workflows: ["Dispatch Workflow"]
-#    types:
-#      - completed
+    workflows: ["Dispatch Workflow"]
+    types:
+      - completed
   push:
     branches:
       - main
