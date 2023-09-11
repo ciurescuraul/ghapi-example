@@ -1,8 +1,8 @@
 name: Follow-up Workflow
 
 on:
-  workflow_run:
-    workflows: ["Build_Project"]
+  workflow_dispatch:
+    workflows: ["Dispatch Workflow"]
     types:
       - completed
   push:
